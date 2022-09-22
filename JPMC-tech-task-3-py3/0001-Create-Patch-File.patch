@@ -1,0 +1,88 @@
+From b181824f0f4b1845e3e4b8ae5550387297a12722 Mon Sep 17 00:00:00 2001
+From: Dhyankumar Patel <dhyanp92@gmail.com>
+Date: Wed, 21 Sep 2022 14:36:43 +0530
+Subject: [PATCH] Create Patch File
+
+---
+ 0001-Create-Patch-File.patch | 63 +++++++++++++++++++++++++++---------
+ 1 file changed, 47 insertions(+), 16 deletions(-)
+
+diff --git a/0001-Create-Patch-File.patch b/0001-Create-Patch-File.patch
+index a06ceb2..55d9faa 100644
+--- a/0001-Create-Patch-File.patch
++++ b/0001-Create-Patch-File.patch
+@@ -1,24 +1,55 @@
+-From 4363801499ca39066720fa97d8f21a4a37b37fd4 Mon Sep 17 00:00:00 2001
+-From: Arshiyan Shaikh <arsahiyansk2000@gmail.com>
+-Date: Fri, 16 Sep 2022 17:28:37 +0530
++From df26975a0de56fec396ec4b8b2fc191ac2e1ed90 Mon Sep 17 00:00:00 2001
++From: Tushar Mahale <tusharmahale.2112001@gmail.com>
++Date: Wed, 21 Sep 2022 11:50:28 +0530
+ Subject: [PATCH] Create Patch File
+ 
+ ---
+- src/DataManipulator.ts | 3 +--
+- 1 file changed, 1 insertion(+), 2 deletions(-)
++ 0001-Create-Patch-File.patch | 24 ++++++++++++++++++++++++
++ src/Graph.tsx                |  2 +-
++ 2 files changed, 25 insertions(+), 1 deletion(-)
++ create mode 100644 0001-Create-Patch-File.patch
+ 
+-diff --git a/src/DataManipulator.ts b/src/DataManipulator.ts
+-index f29e54a..e5b1f79 100644
+---- a/src/DataManipulator.ts
+-+++ b/src/DataManipulator.ts
+-@@ -30,5 +30,4 @@ export class DataManipulator {
+-  
+-     };
++diff --git a/0001-Create-Patch-File.patch b/0001-Create-Patch-File.patch
++new file mode 100644
++index 0000000..a06ceb2
++--- /dev/null
+++++ b/0001-Create-Patch-File.patch
++@@ -0,0 +1,24 @@
+++From 4363801499ca39066720fa97d8f21a4a37b37fd4 Mon Sep 17 00:00:00 2001
+++From: Arshiyan Shaikh <arsahiyansk2000@gmail.com>
+++Date: Fri, 16 Sep 2022 17:28:37 +0530
+++Subject: [PATCH] Create Patch File
+++
+++---
+++ src/DataManipulator.ts | 3 +--
+++ 1 file changed, 1 insertion(+), 2 deletions(-)
+++
+++diff --git a/src/DataManipulator.ts b/src/DataManipulator.ts
+++index f29e54a..e5b1f79 100644
+++--- a/src/DataManipulator.ts
++++++ b/src/DataManipulator.ts
+++@@ -30,5 +30,4 @@ export class DataManipulator {
+++  
+++     };
+++   }
+++-}
+++-
++++}
+++\ No newline at end of file
+++-- 
+++2.37.3.windows.1
+++
++diff --git a/src/Graph.tsx b/src/Graph.tsx
++index f931546..52b2bdc 100644
++--- a/src/Graph.tsx
+++++ b/src/Graph.tsx
++@@ -61,5 +61,5 @@ class Graph extends Component<IProps, {}> {
++     }
+    }
+--}
+--
+-+}
+-\ No newline at end of file
++ }
++- 
++ export default Graph;
+++ 
+ -- 
+ 2.37.3.windows.1
+ 
+-- 
+2.37.3.windows.1
+
